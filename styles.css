@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== Estilos generales ===== */
+body {
+    background-color: #f4f8fb;
+    color: #1f2933;
+    line-height: 1.6;
+}
+
+/* ===== Header y navegación ===== */
+header {
+    background-color: #0a1f44; /* azul marino */
+    padding: 20px;
+}
+
+header h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: #cfe4ff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #4fa3ff; /* azul claro */
+}
+
+/* ===== Contenido ===== */
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Títulos ===== */
+h1, h2, h3 {
+    color: #0a1f44;
+    margin-bottom: 15px;
+}
+
+h2 {
+    border-bottom: 3px solid #4fa3ff;
+    padding-bottom: 5px;
+}
+
+/* ===== Párrafos ===== */
+p {
+    margin-bottom: 15px;
+}
+
+/* ===== Listas ===== */
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* ===== Formularios ===== */
+form label {
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #bcd7f5;
+    border-radius: 5px;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #4fa3ff;
+    box-shadow: 0 0 5px rgba(79, 163, 255, 0.6);
+}
+
+/* ===== Botón ===== */
+button {
+    background-color: #0a1f44;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #4fa3ff;
+    transform: scale(1.05);
+}
+
+/* ===== Footer (opcional) ===== */
+footer {
+    background-color: #0a1f44;
+    color: #cfe4ff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
